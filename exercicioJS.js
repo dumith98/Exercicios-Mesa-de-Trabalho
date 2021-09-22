@@ -122,11 +122,11 @@ console.log("- - - - - - - - - - - - - - -");
 function arrayObjectsTwo(numero, palavra) {
   let objetos = [];
   for (let i = 1; i <= numero; i++) {
-    objetos.push({ palavra: i });
+    objetos.push({ [palavra]: i });
   }
   return objetos;
 }
 
 console.log("EXERCÍCIO 9");
-console.log(arrayObjectsTwo(3, "ola"));
+console.log(arrayObjectsTwo(3, "teste numero"));
 console.log("- - - - - - - - - - - - - - -");
